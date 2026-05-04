@@ -1,0 +1,32 @@
+[versions]
+agp = "8.5.2"
+kotlin = "2.0.21"
+onnxruntime = "1.18.0"
+compose-bom = "2024.09.00"
+activity-compose = "1.9.2"
+datastore = "1.1.1"
+coroutines = "1.9.0"
+junit = "4.13.2"
+lifecycle = "2.8.3"
+core-ktx = "1.13.1"
+
+[libraries]
+onnxruntime-android = { module = "com.microsoft.onnxruntime:onnxruntime-android", version.ref = "onnxruntime" }
+onnxruntime-jvm     = { module = "com.microsoft.onnxruntime:onnxruntime",         version.ref = "onnxruntime" }
+datastore           = { module = "androidx.datastore:datastore-preferences",       version.ref = "datastore" }
+coroutines-android  = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-test     = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test",    version.ref = "coroutines" }
+junit               = { module = "junit:junit",                                    version.ref = "junit" }
+compose-bom         = { group = "androidx.compose", name = "compose-bom",         version.ref = "compose-bom" }
+compose-material3   = { group = "androidx.compose.material3", name = "material3" }
+compose-ui          = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-tooling  = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+activity-compose    = { module = "androidx.activity:activity-compose",             version.ref = "activity-compose" }
+lifecycle-service   = { module = "androidx.lifecycle:lifecycle-service",           version.ref = "lifecycle" }
+lifecycle-runtime   = { module = "androidx.lifecycle:lifecycle-runtime-ktx",       version.ref = "lifecycle" }
+core-ktx            = { module = "androidx.core:core-ktx",                         version.ref = "core-ktx" }
+
+[plugins]
+android-application = { id = "com.android.application",            version.ref = "agp" }
+kotlin-android      = { id = "org.jetbrains.kotlin.android",        version.ref = "kotlin" }
+kotlin-compose      = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

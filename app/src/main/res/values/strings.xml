@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SonarCS</string>
+    <string name="accessibility_description">Перехватывает долгое нажатие кнопки уменьшения громкости для записи голоса и вставки распознанного текста.</string>
+</resources>
