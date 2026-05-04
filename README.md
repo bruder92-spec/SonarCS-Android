@@ -3,6 +3,12 @@
 Офлайн-распознавание речи для Android на базе [GigaAM v3](https://github.com/salute-developers/GigaAM) от SberDevices.  
 Android-форк настольного приложения [SonarCS](https://github.com/bruder92-spec/SonarCS).
 
+## Скачать
+
+**[⬇ SonarCS-Android-v1.0.0.apk](https://github.com/bruder92-spec/SonarCS-Android/releases/latest/download/app-debug.apk)** (287 МБ, модель встроена)
+
+> Установка: Файлы → открыть APK → разрешить установку из неизвестных источников
+
 ## Как работает
 
 Долгое нажатие кнопки **уменьшения громкости** (≥ 500 мс) → запись голоса → распознавание → текст вставляется в активное поле ввода.  
